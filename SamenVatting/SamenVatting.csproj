@@ -42,6 +42,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Arrays.cs" />
+    <Compile Include="ClassBasic.cs" />
     <Compile Include="ForeashLoops.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="GameConstant.cs" />

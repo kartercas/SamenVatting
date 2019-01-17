@@ -20,6 +20,8 @@ namespace SamenVatting
         RandomColor randomColor = new RandomColor();
         //Inisializeerd de class ForeashLoops
         ForeashLoops foreashLoop = new ForeashLoops();
+        //Inisializeerd de class Arrays
+        Arrays arrayss = new Arrays();
         //Inisializeerd de class ClassBasic
         //hier kan je je variable in geven
         ClassBasic yeboi = new ClassBasic("Caspert", "V.O.");
@@ -65,8 +67,8 @@ namespace SamenVatting
             Console.WriteLine(_randomColor);
             //Alles in de Initialize word maar één keer uitgevoerd in het begin
 
-            //foreashLoop();
-
+            foreashLoop.foreashloops();
+            arrayss.arrays();
             //doet de method van ClassBasic
             yeboi.Ik();
 

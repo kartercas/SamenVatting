@@ -8,12 +8,12 @@ namespace SamenVatting
 {
     class Arrays
     {
-        public Arrays()
+        public void arrays()
         {
             //een array bevat meerdere waarden in één declaratie
             //door meteen een [] te zetten zegt ge dat ge een array aan maakt
             //in de initialize zegt ge hoeveel de array is, array begingt met 0 dus is deze 3
-            int[] punten = new int[2];
+            int[] punten = new int[3];
 
             //ge zegt gewoon wat juist allemaal in de array's moet één voor één
             //pas op dit is niet de beste manier kijk naar 'Foreach Loops'
@@ -34,8 +34,8 @@ namespace SamenVatting
             //vraagt de lengt van een array op
             //de Length gaan 4 zijn niet 3, omdat het telt hoeveel er zijn
             Console.WriteLine("Length van puntenWiskunde", puntenWiskunde.Length);
-            //Het verschil tussen Readline en ReadKey is dat als je op een toets drukt met readkey dat hij dan pas naar de volgende gaat.
-            Console.ReadKey();
+            //Het verschil tussen Readline en ReadKey is dat als je op een toets drukt met readkey dat hij dan pas naar de volgende gaat en ReadKey niet in monogame werkt.
+            Console.ReadLine();
         }
     }
 }
