@@ -41,6 +41,7 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Animatie.cs" />
     <Compile Include="Arrays.cs" />
     <Compile Include="ClassBasic.cs" />
     <Compile Include="ForeashLoops.cs" />
@@ -50,6 +51,8 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RandomColor.cs" />
+    <Compile Include="Sound.cs" />
+    <Compile Include="TryAndCatch.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MonoGame.Framework">
