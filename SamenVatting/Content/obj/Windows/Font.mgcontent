@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/caspr/OneDrive voor Bedrijven/Plat-Dev 01/SamenVatting/SamenVatting/Content/Font.spritefont</SourceFile>
+  <SourceTime>2018-12-08T17:35:46+01:00</SourceTime>
+  <DestFile>C:/Users/caspr/OneDrive voor Bedrijven/Plat-Dev 01/SamenVatting/SamenVatting/Content/bin/Windows/Font.xnb</DestFile>
+  <DestTime>2019-01-16T17:22:21.3717823+01:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2017-03-01T16:05:36+01:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2017-03-01T16:05:36+01:00</ProcessorTime>
+  <Parameters>
+    <Key>PremultiplyAlpha</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
