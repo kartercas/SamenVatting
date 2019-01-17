@@ -61,7 +61,7 @@ namespace SamenVatting
             Console.WriteLine(_randomColor);
             //Alles in de Initialize word maar één keer uitgevoerd in het begin
 
-            foreashLoop.Main();
+            //foreashLoop();
 
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);

@@ -8,7 +8,7 @@ namespace SamenVatting
 {
     class ForeashLoops
     {
-        static void Main(string[] args)
+        public ForeashLoops()
         {
             //een array maken met 10 getallen
             int[] nums = new int[10];
