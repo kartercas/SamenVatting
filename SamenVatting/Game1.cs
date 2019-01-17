@@ -20,6 +20,10 @@ namespace SamenVatting
         RandomColor randomColor = new RandomColor();
         //Inisializeerd de class ForeashLoops
         ForeashLoops foreashLoop = new ForeashLoops();
+        //Inisializeerd de class ClassBasic
+        //hier kan je je variable in geven
+        ClassBasic yeboi = new ClassBasic("Caspert", "V.O.");
+
 
         Color _randomColor;
 
@@ -62,6 +66,9 @@ namespace SamenVatting
             //Alles in de Initialize word maar één keer uitgevoerd in het begin
 
             //foreashLoop();
+
+            //doet de method van ClassBasic
+            yeboi.Ik();
 
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
