@@ -8,7 +8,7 @@ namespace SamenVatting
 {
     class Arrays
     {
-        static void Main(string[] args)
+        static void MainArray(string[] args)
         {
             //een array bevat meerdere waarden in één declaratie
             //door meteen een [] te zetten zegt ge dat ge een array aan maakt

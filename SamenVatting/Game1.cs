@@ -18,6 +18,8 @@ namespace SamenVatting
 
         //Inisializeerd de class RandomColor
         RandomColor randomColor = new RandomColor();
+        //Inisializeerd de class ForeashLoops
+        ForeashLoops foreashLoop = new ForeashLoops();
 
         Color _randomColor;
 
@@ -59,6 +61,7 @@ namespace SamenVatting
             Console.WriteLine(_randomColor);
             //Alles in de Initialize word maar één keer uitgevoerd in het begin
 
+            foreashLoop.Main();
 
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
