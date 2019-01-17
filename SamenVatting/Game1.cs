@@ -27,6 +27,8 @@ namespace SamenVatting
         ClassBasic yeboi = new ClassBasic("Caspert", "V.O.");
 
 
+
+
         Color _randomColor;
 
 
@@ -100,6 +102,7 @@ namespace SamenVatting
                 Exit();
 
             // TODO: Add your update logic here
+
 
             base.Update(gameTime);
         }

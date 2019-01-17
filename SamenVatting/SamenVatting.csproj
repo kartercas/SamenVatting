@@ -46,6 +46,7 @@
     <Compile Include="ForeashLoops.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="GameConstant.cs" />
+    <Compile Include="GamTime.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RandomColor.cs" />
